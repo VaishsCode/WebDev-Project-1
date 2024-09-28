@@ -48,6 +48,15 @@ body {
   border: 1px solid !important;
 }
 
+.card-button {
+  width: 100% !important;
+  background-color: #011e31 !important;
+  border-radius: 5px !important;
+  border: 0px !important;
+  padding: 2% !important;
+  margin-bottom: 2px !important;
+}
+
 .sale-price {
   font-size: 30px !important;
   font-family: "Times New Roman", Times, serif;
