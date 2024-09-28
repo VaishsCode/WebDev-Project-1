@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section id="navbar-plus-logo">
+      <nav
+        class="navbar navbar-expand-lg"
+        style="background-color: #011e31"
+        bg-body-tertiary
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              fill="currentColor"
+              class="bi bi-brush brush-svg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.1 6.1 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.1 8.1 0 0 1-3.078.132 4 4 0 0 1-.562-.135 1.4 1.4 0 0 1-.466-.247.7.7 0 0 1-.204-.288.62.62 0 0 1 .004-.443c.095-.245.316-.38.461-.452.394-.197.625-.453.867-.826.095-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.201-.925 1.746-.896q.19.012.348.048c.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.176-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04M4.705 11.912a1.2 1.2 0 0 0-.419-.1c-.246-.013-.573.05-.879.479-.197.275-.355.532-.5.777l-.105.177c-.106.181-.213.362-.32.528a3.4 3.4 0 0 1-.76.861c.69.112 1.736.111 2.657-.12.559-.139.843-.569.993-1.06a3 3 0 0 0 .126-.75zm1.44.026c.12-.04.277-.1.458-.183a5.1 5.1 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.59 1.927-5.566 4.66-7.302 6.792-.442.543-.795 1.243-1.042 1.826-.121.288-.214.54-.275.72v.001l.575.575zm-4.973 3.04.007-.005zm3.582-3.043.002.001h-.002z"
+              />
+            </svg>
+            Brushio</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item pt-1">
+                <button
+                  type="button"
+                  class="btn btn-outline-light btn-sm login me-1"
+                >
+                  Log In
+                </button>
+                <button type="button" class="btn btn-warning btn-sm signup">
+                  Sign Up
+                </button>
+              </li>
+              <li class="nav-item"></li>
+              <li class="nav-item dropdown"></li>
+              <li class="nav-item"></li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-person-fill profile"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"
+              />
+            </svg>
+            <svg
+              class="svg-icon V-line"
+              style="
+                width: 35;
+                height: 35;
+                vertical-align: middle;
+                fill: currentColor;
+                overflow: hidden;
+              "
+              viewBox="0 0 1024 1024"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M531.185456 943.532317c0 8.899694-6.493901 16.114003-14.503319 16.114003l-9.364275 0c-8.010441 0-14.504342-7.214309-14.504342-16.114003L492.81352 80.46666c0-8.898671 6.493901-16.114003 14.504342-16.114003l9.364275 0c8.009418 0 14.503319 7.215332 14.503319 16.114003L531.185456 943.532317z"
+              />
+            </svg>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="35"
+              height="35"
+              fill="currentColor"
+              class="bi bi-cart3 cart-svg"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"
+              />
+            </svg>
+          </div>
+        </div>
+      </nav>
+      <div class="nav-scroller py-3 px-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis active" href="#"
+            >Shop</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >New Arrivals</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Sale Items</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Brushes & Tools</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Art Supplies</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Sketching Tools</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Artist Kits</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#">Kids Art</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Stationery</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#"
+            >Office Supplies</a
+          >
+          <a class="nav-item nav-link link-body-emphasis" href="#">Brands</a>
+        </nav>
+      </div>
+    </section>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide carousel-main"
+      data-bs-ride="carousel"
+      data-bs-interval="2000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./assets/slogan.jpeg" class="d-block w-100" alt="banner" />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./assets/newArrival.jpeg"
+            class="d-block w-100"
+            alt="banner"
+          />
+        </div>
+        <div class="carousel-item">
+          <img src="./assets/sale.jpeg" class="d-block w-100" alt="banner" />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row-1-home">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img8.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-title">CREATIVE HANDS</p>
+              <p class="card-text">
+                Brustro Artists' Coloured Pencils Skin Tone Set of 24 (in
+                Elegant tin Box)
+              </p>
+              <text title="sale-price" class="sale-price">₹ 807.00</text>
+              <text title="regular-price" class="regular-price">₹ 897.00</text>
+              <a href="#" class="btn btn-primary card-button">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-title">CREATIVE HANDS</p>
+              <p class="card-text">
+                Sennelier Aquarelle French Artists’ Watercolor Aqua-Mini Set –
+                Metal Box of 8 Half Pans
+              </p>
+              <text title="sale-price" class="sale-price">₹ 1,351.00</text>
+              <text title="regular-price" class="regular-price"
+                >₹ 1,590.00</text
+              >
+              <a href="#" class="btn btn-primary card-button">Add to cart</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img src="./assets/img6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">CREATIVE HANDS</h5>
+              <p class="card-text">
+                Brustro Watercolour Ink Set B of 6 x 15ml (6 Shades i.e.
+                Butterscotch, Ruby, Neon Pink,Tangerine, Teal, Indigo)
+              </p>
+              <text title="sale-price" class="sale-price">₹ 629.00 </text>
+              <text title="regular-price" class="regular-price">₹ 699.00</text>
+              <a href="#" class="btn btn-primary card-button">Add to cart</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row-2-home">
+      <div class="bd-example">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/row-2-product-1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">DOMS</h5>
+                <p class="card-text">
+                  Daler-Rowney Aquafine Short Handle Classic 10 Brush Zip Case
+                </p>
+                <text title="sale-price" class="sale-price">₹ 3,192.00 </text>
+                <text title="regular-price" class="regular-price"
+                  >₹ 3,990.00</text
+                >
+                <a href="#" class="btn btn-primary card-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img11.webp" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Luxor</h5>
+                <p class="card-text">
+                  Parker Jotter Originals Chrome Trim Ball Pen Orange Body Color
+                </p>
+                <text title="sale-price" class="sale-price">₹ 297.00 </text>
+                <text title="regular-price" class="regular-price"
+                  >₹ 330.00</text
+                >
+                <a href="#" class="btn btn-primary card-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">CREATIVE HANDS</h5>
+                <p class="card-text">
+                  Brustro Watercolour Ink Set B of 6 x 15ml (6 Shades i.e.
+                  Butterscotch, Ruby, Neon Pink,Tangerine, Teal, Indigo)
+                </p>
+                <text title="sale-price" class="sale-price">₹ 629.00 </text>
+                <text title="regular-price" class="regular-price"
+                  >₹ 699.00</text
+                >
+                <a href="#" class="btn btn-primary card-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="./assets/img6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">CREATIVE HANDS</h5>
+                <p class="card-text">
+                  Brustro Watercolour Ink Set B of 6 x 15ml (6 Shades i.e.
+                  Butterscotch, Ruby, Neon Pink,Tangerine, Teal, Indigo)
+                </p>
+                <text title="sale-price" class="sale-price">₹ 629.00 </text>
+                <text title="regular-price" class="regular-price"
+                  >₹ 699.00</text
+                >
+                <a href="#" class="btn btn-primary card-button">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
